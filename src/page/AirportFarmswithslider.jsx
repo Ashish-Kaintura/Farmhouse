@@ -94,7 +94,7 @@ export default function AirportFarmswithslider() {
     },
     {
       image: "https://i.postimg.cc/nrzV5ZY1/3.png",
-      title: "HITECH AGRICULTURE",
+      title: "AGRICULTURE",
       subtitle: "Expert Consultation For Horticulture.",
       desc: "Fertile freehold land with sweet water available for all your farming needs.",
     },
@@ -105,7 +105,7 @@ export default function AirportFarmswithslider() {
     "https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=800&auto=format&fit=crop",
     "https://images.unsplash.com/photo-1495107334309-fcf20504a5ab?q=80&w=800&auto=format&fit=crop",
     "https://i.postimg.cc/63z5YTRR/2.png",
-    "https://images.unsplash.com/photo-1500076656116-558758c991c1?q=80&w=800&auto=format&fit=crop",
+    "https://raw.githubusercontent.com/Ashish-Kaintura/Farmhouse/main/src/assets/poster.jpg",
     "https://images.unsplash.com/photo-1464226184884-fa280b87c399?q=80&w=800&auto=format&fit=crop",
     "https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?q=80&w=800&auto=format&fit=crop",
   ];
@@ -148,7 +148,7 @@ export default function AirportFarmswithslider() {
       icon: <ShieldCheck className="text-emerald-600" />,
     },
     {
-      text: "Expert Consultation For Horticulture & HiTech Ag.",
+      text: "Expert Consultation For Horticulture",
       icon: <Sprout className="text-emerald-600" />,
     },
     {
@@ -181,7 +181,7 @@ export default function AirportFarmswithslider() {
       >
         <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
           <div className="font-sans font-bold text-2xl tracking-wider text-[#D40000]">
-            <a href="/">AIRPORT FARMS</a> 
+            <a href="/">AIRPORT FARMS</a>
           </div>
           {/* Desktop Nav */}
           <div className="hidden md:flex space-x-8 text-sm font-medium text-green-500">
@@ -326,7 +326,7 @@ export default function AirportFarmswithslider() {
           {/* Heading */}
           <div className="text-center mb-10 sm:mb-14 lg:mb-16">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-sans font-bold text-[#D40000] mb-3 sm:mb-4 uppercase">
-              Financial
+              Financials
             </h2>
             <div className="w-16 sm:w-20 lg:w-24 h-1 bg-emerald-500 mx-auto rounded-full"></div>
           </div>
@@ -343,7 +343,7 @@ export default function AirportFarmswithslider() {
               className="bg-white p-5 sm:p-7 lg:p-10 rounded-2xl lg:rounded-3xl border border-stone-200 shadow-md hover:shadow-xl transition-all duration-300"
             >
               <h3 className="text-xl sm:text-2xl font-sans font-bold text-blue-800 mb-5 sm:mb-6">
-                Financial Overview
+                Financials Overview
               </h3>
 
               <div className="space-y-5 sm:space-y-6">
@@ -352,7 +352,7 @@ export default function AirportFarmswithslider() {
                     Pre-Launch Rate
                   </span>
                   <span className="text-xl sm:text-2xl font-bold text-[#D40000]">
-                    ₹3,000 / sqm
+                    ₹5,000 / sqm
                   </span>
                 </div>
 
@@ -602,8 +602,8 @@ export default function AirportFarmswithslider() {
       >
         <div className="max-w-4xl mx-auto">
           <FadeIn>
-            <div className="flex items-center space-x-3 mb-6">
-              <AlertCircle className="text-[#D40000] w-6 h-6" />
+            <div className="flex items-center fle justify-center space-x-3 mb-6">
+              {/* <AlertCircle className="text-[#D40000] w-6 h-6" /> */}
               <h2 className="text-xl font-bold text-[#D40000] uppercase tracking-wider">
                 Disclosure
               </h2>
@@ -688,14 +688,15 @@ export default function AirportFarmswithslider() {
                   </span>
                 </a>
 
-                <div className="flex items-start space-x-4 text-blue-800 font-medium">
+                <div className="flex items-center  space-x-4 text-blue-800 font-medium">
                   <div className="p-3 bg-stone-50 rounded-full mt-1 border border-stone-100">
                     <MapPin className="w-5 h-5 text-[#D40000]" />
                   </div>
                   <p className="leading-relaxed">
-                    Bajna, Agriculture Land
+                    {/* Bajna, Agriculture Land
                     <br />
-                    Near Zewar Airport
+                    Near Zewar Airport */}
+                    Site Office at br Bajna
                   </p>
                 </div>
               </div>
@@ -713,7 +714,7 @@ export default function AirportFarmswithslider() {
                   target="_blank"
                   href="https://ashish-kaintura-folio.netlify.app/"
                 >
-                  Ashish Kanthar.
+                  Ashish Kaitura
                 </a>
               </span>
             </p>
