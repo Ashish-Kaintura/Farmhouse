@@ -2,7 +2,7 @@ export default function HeroBanner() {
   const poster =
     "https://raw.githubusercontent.com/Ashish-Kaintura/Farmhouse/main/src/assets/poster.jpg";
   const videoSrc =
-    "https://raw.githubusercontent.com/Ashish-Kaintura/Farmhouse/main/src/video/video2.mp4";
+    "https://raw.githubusercontent.com/Ashish-Kaintura/Farmhouse/main/src/assets/video2.mp4";
 
   return (
     <header className="relative w-full h-screen max-h-[880px] md:max-h-[720px] overflow-hidden md:pt-28 pt-0 bg-black">
@@ -27,7 +27,7 @@ export default function HeroBanner() {
         style={{
           background:
             "linear-gradient(180deg, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.55) 60%)",
-          backdropFilter: "blur(2px)", // Reduced blur slightly for better mobile performance
+          backdropFilter: "blur(1px)", // Reduced blur slightly for better mobile performance
         }}
         aria-hidden="true"
       />
