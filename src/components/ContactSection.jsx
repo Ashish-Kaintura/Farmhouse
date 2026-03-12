@@ -178,7 +178,7 @@ const ContactSection = () => {
             <div className="h-full w-full min-h-[400px] bg-stone-200 relative">
               <iframe
                 title="Airport Farms Location Map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3509.4313!2d77.0!3d28.5!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjguNSIsNzcuMA!5e0!3m2!1sen!2sin!4v123456789"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5794.324911020078!2d77.6796752!3d27.896391399999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397345b9ce48f32d%3A0x850373ef422514a2!2sBajna%2C%20Uttar%20Pradesh%20281201!5e1!3m2!1sen!2sin!4v1773299944774!5m2!1sen!2sin"
                 className="absolute inset-0 w-full h-full border-0"
                 allowFullScreen=""
                 loading="lazy"

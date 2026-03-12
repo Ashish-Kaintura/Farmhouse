@@ -1,8 +1,8 @@
 export default function HeroBanner() {
   const poster =
-    "https://raw.githubusercontent.com/Ashish-Kaintura/Farmhouse/main/src/assets/poster.jpg";
+    "https://raw.githubusercontent.com/Ashish-Kaintura/Farmhouse/main/src/assets/banner3.png";
   const videoSrc =
-    "https://raw.githubusercontent.com/Ashish-Kaintura/Farmhouse/main/src/assets/video2.mp4";
+    "https://raw.githubusercontent.com/Ashish-Kaintura/Farmhouse/main/src/assets/banner3video.mp4";
 
   return (
     <header className="relative w-full h-screen max-h-[880px] md:max-h-[720px] overflow-hidden md:pt-28 pt-0 bg-black">
@@ -36,7 +36,7 @@ export default function HeroBanner() {
       <div className="relative z-10 container mx-auto px-6 md:px-12 h-full flex items-center">
         <div className="max-w-3xl text-white">
           <span className="inline-block bg-white/10 px-4 py-1  text-xl rounded-full mb-4 backdrop-blur-md">
-            AIRPORT FARMS (Bajna)
+            AIRPORT FARMS Bajna (Vrindavan)
           </span>
 
           <h1 className="text-4xl md:text-6xl font-extrabold leading-tight text-green-400">
@@ -53,13 +53,13 @@ export default function HeroBanner() {
               href="#financials"
               className="px-6 py-3 bg-green-600 hover:bg-green-700 rounded-md font-semibold transition-colors"
             >
-              View Listings
+              Main Highlights
             </a>
             <a
               href="#contact"
               className="px-6 py-3 border border-white/30 rounded-md text-white/95 hover:bg-white/10 transition-colors"
             >
-              Schedule Visit
+              Learn more
             </a>
           </div>
         </div>

@@ -108,7 +108,7 @@ export default function AirportFarmswithslider() {
     "https://i.postimg.cc/63z5YTRR/2.png",
     "https://raw.githubusercontent.com/Ashish-Kaintura/Farmhouse/main/src/assets/poster.jpg",
     "https://images.unsplash.com/photo-1464226184884-fa280b87c399?q=80&w=800&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?q=80&w=800&auto=format&fit=crop",
+    "https://raw.githubusercontent.com/Ashish-Kaintura/Farmhouse/main/src/assets/banner3.png",
   ];
 
   const highlights = [
@@ -476,8 +476,61 @@ export default function AirportFarmswithslider() {
       </section>
 
       {/* CONTACT & MAP SECTION */}
-      <ContactSection/>
+      <ContactSection />
       <FAQ />
+
+      {/* PRIVACY POLICY SECTION */}
+      <section
+        id="privacy"
+        className="py-14 sm:py-20 lg:py-24 px-4 sm:px-6 lg:px-8  mx-auto scroll-mt-24 bg-gray-100"
+      >
+        <FadeIn>
+          <div className="text-center mb-10 sm:mb-14 lg:mb-16">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-sans font-bold text-[#D40000] mb-3 sm:mb-4">
+              Privacy Policy
+            </h2>
+            <div className="w-16 sm:w-20 lg:w-24 h-1 bg-emerald-500 mx-auto rounded-full"></div>
+          </div>
+        </FadeIn>
+
+        <FadeIn delay={0.1}>
+          <div className="bg-blue-200 p-5 sm:p-7 lg:p-10 rounded-2xl lg:rounded-3xl border border-stone-200 shadow-sm">
+            <div className="space-y-4 sm:space-y-6 text-sm sm:text-base text-blue-900 leading-relaxed font-medium">
+              <p>
+                Your privacy is important to us. It is our policy to respect
+                your privacy regarding any information you may provide us. We
+                only ask for personal information when we require it to serve
+                you better and collect it by fair and lawful means with your
+                knowledge and consent.
+              </p>
+
+              <p>
+                We only retain collected information for as long as necessary to
+                provide you with your requested service. The data stored by us
+                will be within commercially acceptable means to prevent loss,
+                theft or unauthorized access, disclosure, copying, use, or
+                modification. We do not share personal information with any
+                companies, organizations nor with individuals, except when we
+                are required to do so as per law.
+              </p>
+
+              <p>
+                You can refuse your personal information requested by us, which
+                might hamper our efforts to provide you the desired services.
+                Your continued use of our website will be regarded as acceptance
+                of our practices around privacy.
+                <br />
+                <br />
+                The contents of this website are for the persons resident in
+                India only and we scrupulously follow applicable Laws, Rules,
+                Regulations framed by Government of India.
+              </p>
+
+             
+            </div>
+          </div>
+        </FadeIn>
+      </section>
       {/* DISCLOSURE */}
       <section
         id="disclosure"
