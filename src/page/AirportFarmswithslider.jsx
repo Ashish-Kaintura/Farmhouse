@@ -107,7 +107,7 @@ export default function AirportFarmswithslider() {
     "https://images.unsplash.com/photo-1495107334309-fcf20504a5ab?q=80&w=800&auto=format&fit=crop",
     "https://i.postimg.cc/63z5YTRR/2.png",
     "https://raw.githubusercontent.com/Ashish-Kaintura/Farmhouse/main/src/assets/poster.jpg",
-    "https://images.unsplash.com/photo-1464226184884-fa280b87c399?q=80&w=800&auto=format&fit=crop",
+    "https://raw.githubusercontent.com/Ashish-Kaintura/Farmhouse/main/src/assets/farmhouse.webp",
     "https://raw.githubusercontent.com/Ashish-Kaintura/Farmhouse/main/src/assets/banner3.png",
   ];
 

@@ -30,7 +30,7 @@ export default function FAQ() {
     {
       question: "Where exactly is Airport Farms located?",
       answer:
-        "Airport Farms is located in Bajna, about 30 kms from Zewar Airport, 50 kms from Vrindavan, and conveniently situated about 1 km inside of the Main Highway.",
+        "Airport Farms is located in Bajna, about 30 kms from Zewar Airport, 50 kms in Vrindavan and conveniently situated about 1 km inside of the Main Highway.",
     },
     {
       question: "What are the sizes of the farm lands available?",

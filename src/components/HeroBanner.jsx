@@ -2,7 +2,7 @@ export default function HeroBanner() {
   const poster =
     "https://raw.githubusercontent.com/Ashish-Kaintura/Farmhouse/main/src/assets/banner3.png";
   const videoSrc =
-    "https://raw.githubusercontent.com/Ashish-Kaintura/Farmhouse/main/src/assets/banner3video.mp4";
+    "";
 
   return (
     <header className="relative w-full h-screen max-h-[880px] md:max-h-[720px] overflow-hidden md:pt-28 pt-0 bg-black">
@@ -35,7 +35,7 @@ export default function HeroBanner() {
       {/* Content - Ensured z-index is higher than video/overlay */}
       <div className="relative z-10 container mx-auto px-6 md:px-12 h-full flex items-center">
         <div className="max-w-3xl text-white">
-          <span className="inline-block bg-white/10 px-4 py-1  text-xl rounded-full mb-4 backdrop-blur-md">
+          <span className="inline-block text-[#D40000] bg-white/90 font-semibold px-4 py-1  text-xl rounded-full mb-4 backdrop-blur-md">
             AIRPORT FARMS Bajna (Vrindavan)
           </span>
 
